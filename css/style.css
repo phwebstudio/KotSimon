@@ -1,0 +1,236 @@
+.preview {
+	background-image: url(../img/bc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .25);
+	background-position: center;
+	padding: 15em 0 20em 0;
+	text-align: center;
+}
+
+.products {
+	text-align: center;
+}
+
+.products .products-items .products-item h3 {
+	margin: .25em auto;
+	color: #093;
+}
+
+.products .slick-next {
+	right: -30px;
+}
+
+.products .slick-prev {
+	left: -40px;
+}
+
+.stocks {
+	padding: 0;
+}
+
+.stocks .stocks-items .stocks-item {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 10em 1em;
+	color: white;
+	margin: 0;
+}
+
+.stocks .stocks-items .stocks-item h3 {
+	color: #fff;
+}
+
+.stocks .stocks-items .stocks-1 {
+	background-image: url(../img/stock1.jpg);
+}
+
+.stocks .stocks-items .stocks-2 {
+	background-image: url(../img/stock2.jpg);
+}
+
+.stocks .stocks-items .stocks-3 {
+	background-image: url(../img/stock3.jpg);
+}
+
+.stocks .slick-next {
+	right: 40px;
+}
+
+.stocks .slick-prev {
+	left: 30px;
+}
+
+.stocks .slick-dots {
+	position: absolute;
+	top: 90%;
+}
+
+/*.features .features-items {
+	margin-top: 2.5em;
+}
+
+.features .features-items .features-item {
+	width: 25%;
+}
+
+.features .features-items .features-item hr {
+	margin: .5em auto;
+	width: 15%;
+}
+
+.features .features-items .features-item span {
+	font-size: 1.25em;
+}*/
+
+.advantages .advantages-items {
+	margin: 0 0 2em 0;
+}
+
+.advantages .advantages-items .advantages-item {
+	text-align: left;
+	margin: 0 2.5em;
+}
+
+.advantages .advantages-items .advantages-item .title {
+	justify-content: flex-start;
+	margin-bottom: .5em;
+}
+
+.advantages .advantages-items .advantages-item .title h3 {
+	border-bottom: 3px solid #093;
+	margin-left: .5em;
+}
+
+.about {
+	padding: 0;
+}
+
+.about .about-items .about-item {
+	margin: 0 2.5em;
+	text-align: left;
+}
+
+.about .about-items .about-item hr {
+	margin: .5em 0 1em 0;
+}
+
+.about .about-items .about-item .d-flex {
+	margin-top: 2.5em;
+	justify-content: space-between;
+}
+
+.about .about-items .about-item a.btn {
+	color: #093;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.about .about-items .about-item a.btn:hover {
+	background-color: #093;
+	color: white;
+	transition: .25s;
+}
+
+.about .about-items .about-item:last-child {
+	width: 250%;
+}
+
+.contacts .contacts-items .contacts-item .d-flex {
+	justify-content: flex-start;
+	margin: 1em 0;	
+}
+
+.contacts .contacts-items .contacts-item img {
+	border-radius: 1.25em;
+	background-color: #093;
+	padding: .5em;
+	width: 2em;
+} 
+
+.contacts .contacts-items .contacts-item .d-flex:hover img {
+	opacity: .85;
+	transition: .25s;
+} 
+
+.contacts .contacts-items .contacts-item span {
+	color: #303030;
+	display: block;
+	margin-left: .5em;
+	font-size: 1.25em;
+}
+
+.contacts .contacts-items .contacts-item iframe {
+	width: 30em;
+	height: 15em;
+}
+
+.feedback input,
+.feedback textarea {
+	width: 75%;
+	margin: 1.5em auto;
+	display: block;
+	padding: 1em;
+	border: none;
+	border-bottom: 3px solid #093;
+	font-size: 1.25em;
+	color: #093;
+	background-color: transparent;
+}
+
+.feedback input[type="text"],
+.feedback input[type="phone"] {
+	width: 25%;
+}
+
+.feedback .form-group {
+	display: flex;
+}
+
+.feedback textarea {
+	resize: none;
+	height: 100px;
+}
+
+.feedback input[type="submit"] {
+	width: 20%;
+	background-color: #303030;
+	color: white;
+	border: none;
+	margin-left: 10.75%;
+}
+
+.feedback input[type="submit"]:hover,
+.feedback input[type="submit"]:focus {
+	background-color: #093;
+	cursor: pointer;
+	transition: .1s;
+}
+
+.brands .brands-items .slick-track {
+	display: flex;
+	align-items: center;
+}
+
+.brands .brands-items .brands-item:hover {
+	opacity: .85;
+	transition: .25s;
+}
+
+.brands .brands-items .brands-item img {
+	width: 5em;
+	margin: 0 auto;
+}
+
+.brands .slick-prev {
+	left: -10px;
+}
+
+.brands .slick-next {
+	right: 0;
+}

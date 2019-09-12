@@ -1,0 +1,162 @@
+@media screen and (max-width: 790px) {
+	header {
+		position: fixed;
+		z-index: 30;
+		justify-content: flex-start !important;
+	}
+
+	header .logo {
+		margin-left: 2.5em;
+	}
+
+	header .main-menu a.menu-trigger {
+		display: block;
+		top: 0em;
+		font-size: 2.5em;
+		color: #fff !important;
+		position: fixed;
+		right: 0;
+		padding: 0 .25em;
+		z-index: 60;
+		border-bottom: none; 
+	}
+
+	header .main-menu ul {
+		display: none;
+		z-index: 30;
+		position: fixed;
+		top: 6.5em;
+		z-index: 40;
+		right: 0;
+		width: 100%;
+		background-color: #093;
+	}
+
+	header .main-menu ul li {
+		display: block;
+		margin: 0;
+	}
+
+	header .main-menu ul li a {
+		padding: 1em;
+		display: block;
+		margin: 0;
+		margin: 0;
+		border: none;
+	}
+
+	header .main-menu ul li a:hover {
+		background-color: #fff;
+		color: #093;
+		padding: 1em;
+	}
+
+	.preview {
+		background-position: bottom;
+	}
+
+	.items {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.products .products-items .products-item:last-child {
+		display: none;
+	}
+
+	.products .products-items .products-item .d-flex:first-child {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.advantages .advantages-items {
+		margin-bottom: 0;
+	}
+
+	.advantages .advantages-items .advantages-item {
+		margin-bottom: 2em;
+	}
+
+	.about .about-items .about-item {
+		text-align: center;
+	}
+
+	.about .about-items .about-item hr {
+		margin: .5em auto 1em auto;
+	}
+
+	.about .about-items .about-item .d-flex {
+		justify-content: center;
+		margin-top: 1em;
+	}
+
+	.about img {
+		display: none;
+	}
+
+	.contacts p {
+		margin-bottom: 1em;
+	}
+
+	.contacts .contacts-items .contacts-item:first-child {
+		display: flex;
+		justify-content: center;
+	}
+
+	.contacts .contacts-items .contacts-item:first-child .d-flex {
+		display: block;
+		text-align: center;
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.products,
+	.brands {
+		display: none;
+	}
+
+	.products-mob,
+	.brands-mob {
+		display: block;
+	}
+
+	.products-mob .slick-prev {
+		left: 20px;
+	}
+
+	.products-mob .slick-next {
+		right: 30px;
+	}
+	
+	.contacts p {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.feedback .form-group {
+		display: block;
+	}
+
+	.feedback .form-group input[type="text"],
+	.feedback .form-group input[type="phone"] {
+		width: 75%;
+	}
+
+	.feedback input[type="submit"] {
+		width: 75% !important;
+	}
+
+	.contacts .contacts-items .contacts-item iframe {
+		width: 100%;
+	}
+
+	.contacts .contacts-items .contacts-item:first-child .d-flex {
+		width: 100% !important;
+	}
+
+	.contacts .contacts-items .contacts-item {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+*::selection {
+	background-color: rgba(0, 153, 51, .25);
+}
+
+li {
+	list-style: none;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+span {
+	font-size: 1.25em;
+}
+
+h1 {
+	color: #fff;
+	font-size: 2.75em;
+	line-height: 1.25em;
+	text-shadow: 1px 1px 10px #000;
+	font-family: 'Marck Script', cursive;
+}
+
+span.tagline {
+	color: #fff;
+	font-size: 1.5em;
+	line-height: 1.25em;
+	text-shadow: 1px 1px 10px #000;
+	width: 75%;
+	display: block;
+	margin: .25em auto;
+}
+
+h2.section-title {
+	font-family: 'Marck Script', cursive;
+	color: #093;
+	line-height: 1.5em;
+	font-size: 2.25em;
+}
+
+h3 {
+	color: #303030;
+	line-height: 1.25em;
+	font-size: 1.75em;
+}
+
+hr {
+	border: none;
+	height: 5px;
+	background-color: #093;
+	margin: .5em auto 1em auto;
+	width: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.btn {
+	padding: .5em;
+	border: 1px solid #093;
+	color: white;
+	font-size: 1em;
+	display: block;
+	text-align: center;
+	border-radius: .25em;
+}
+
+a.btn:hover {
+	background-color: white;
+	color: #093;
+	transition: .1s;
+}
+
+img	{
+	width: 100%;
+}
+
+img.icon {
+	width: 2.5em;
+	margin: 0 .25em;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mob {
+	display: none;
+}
+
+.block {
+	padding: 5em 0;
+	text-align: center;
+}
+
+.block > p {
+	font-style: italic;
+	color: #303030;
+	margin: 1em auto;
+	width: 50%;
+	margin-bottom: 2.5em;
+}
+
+.clr {
+	color: #093;
+	font-weight: bold;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.d-block {
+	display: block;
+}
+
+.items,
+.d-flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item {
+	margin: 0 .5em;
+}
+
+span.lb-number,
+a.lb-close {
+	display: none !important;
+}
+
+.lightbox {
+	position: fixed !important;
+	top: 1em !important;
+}
+
+header {
+	padding: 2.5em 0;
+	width: 100%;
+	background-color: #093;
+}
+
+header .logo {
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+header .logo img {
+	width: 5em;
+}
+
+header .main-menu a.menu-trigger {
+	display: none;
+}
+
+header .main-menu li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+header .main-menu a {
+	margin: .5em;
+	padding: .5em;
+	font-size: 1.25em;
+	color: white;
+	border-bottom: 1px solid transparent;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+header .main-menu a:hover {
+	border-color: white;
+	transition: .25s;
+}
+
+header a.btn {
+	border: 1px solid white;
+	padding: 1em 2.5em;
+	font-size: 1.25em;
+}
+
+footer {
+	text-align: center;
+	padding: 2.5em 0;
+	background-color: #303030;
+}
+
+footer .social a:hover {
+	opacity: .75;
+	transition: .25s;
+}
+
+footer span {
+	color: white;
+	line-height: 1.5em;
+}
